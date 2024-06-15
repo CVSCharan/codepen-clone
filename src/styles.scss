@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+$quicksand-font-family: "Quicksand", sans-serif !important;
+$dark-bg-primary-color: #171f38;
+$color-1: grey;
+$color-2: #01d293;
+$color-3: #e0e1dd;
+$color-4: #74bdcb;
+$color-5: #035295;
+
+.mainPage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rotate-left {
+  transform: rotate(-90deg);
+}
+
+.rotate-right {
+  transform: rotate(90deg);
+}

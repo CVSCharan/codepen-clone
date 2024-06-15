@@ -1,0 +1,248 @@
+$quicksand-font-family: "Quicksand", sans-serif !important;
+$poppins-font-family: "Poppins", sans-serif !important;
+
+.header {
+  height: 10%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.header-main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  padding: 0 40px;
+}
+
+.header-logo {
+  letter-spacing: 3px;
+  width: 15%;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+  font-family: $quicksand-font-family;
+}
+
+.header-searchBar {
+  height: 60px;
+  width: 30%;
+  color: black;
+  font-size: 20px;
+  font-family: $poppins-font-family;
+  outline: none;
+}
+
+.header-start-coding {
+  color: white;
+  font-size: 20px;
+  border: 1.5px solid white;
+  padding: 13px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-family: $poppins-font-family;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* For small screens (up to 320px) */
+@media (max-width: 320px) {
+  .header {
+    height: 6.5%;
+  }
+
+  .header-sub-container {
+    padding: 0 5px;
+    width: 70%;
+  }
+
+  .header-searchBar {
+    height: 26px;
+    width: 120px;
+    font-size: 10px;
+    padding: 0px 5px;
+  }
+
+  .header-logo {
+    width: 30%;
+    font-size: 14px;
+  }
+
+  .header-start-coding {
+    font-size: 9px;
+    padding: 4px;
+    border-radius: 20px;
+  }
+}
+
+/* For small screens (up to 375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .header {
+    height: 7%;
+  }
+
+  .header-sub-container {
+    padding: 0 10px;
+    width: 70%;
+  }
+
+  .header-searchBar {
+    height: 26px;
+    width: 140px;
+    font-size: 12px;
+    padding: 0px 5px;
+  }
+
+  .header-logo {
+    width: 30%;
+    font-size: 14px;
+  }
+
+  .header-start-coding {
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+}
+
+/* For small screens (up to 600px) */
+@media (min-width: 376px) and (max-width: 600px) {
+  .header-sub-container {
+    padding: 0 15px;
+  }
+
+  .header-searchBar {
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+
+  .header-logo {
+    width: 35%;
+    font-size: 17px;
+  }
+
+  .header-start-coding {
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+
+/* For medium screens (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .header-sub-container {
+    padding: 0 12px;
+  }
+
+  .header-start-coding {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .header-searchBar {
+    height: 35px;
+    width: 190px;
+    font-size: 15px;
+    padding: 0px 10px;
+  }
+
+  .header-logo {
+    width: 25%;
+    font-size: 23px;
+  }
+}
+
+/* For large screens (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .header {
+    height: 12%;
+  }
+
+  .header-logo {
+    width: 20%;
+    font-size: 30px;
+  }
+
+  .header-sub-container {
+    padding: 0 12px;
+  }
+
+  .header-start-coding {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .header-searchBar {
+    height: 35px;
+    width: 190px;
+    font-size: 15px;
+    padding: 0px 10px;
+  }
+}
+
+/* For extra large screens (1201px and above) */
+@media (min-width: 1201px) and (max-width: 2559px) {
+  .header-logo {
+    width: 15%;
+    font-size: 30px;
+  }
+
+  .header-sub-container {
+    padding: 0 12px;
+  }
+
+  .header-start-coding {
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 20px;
+  }
+
+  .header-searchBar {
+    height: 37px;
+    width: 370px;
+    font-size: 17px;
+    padding: 0px 15px;
+  }
+}
+
+/* For very large screens (2560px and above) */
+@media (min-width: 2560px) {
+  .header-logo {
+    width: 15%;
+    font-size: 52px;
+  }
+
+  .header-sub-container {
+    padding: 0 32px;
+  }
+
+  .header-start-coding {
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .header-searchBar {
+    height: 75px;
+    width: 490px;
+    font-size: 35px;
+    padding: 0px 20px;
+  }
+}

@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+$quicksand-font-family: "Quicksand", sans-serif !important;
+$poppins-font-family: "Poppins", sans-serif !important;
+$dark-bg-primary-color: #171f38;
+$color-1: grey;
+$color-2: #01d293;
+$color-3: #e0e1dd;
+$color-4: #74bdcb;
+$color-5: #035295;
+
+.landingPage {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-bg-primary-color;
+}
+
+.landingPage-main-container {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.landingPage-sub-container1 {
+  height: 100%;
+  width: 50%;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 70px;
+}
+
+.landingPage-sub-container2 {
+  height: 97%;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #444645;
+  border-radius: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.editor1 {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.editor1-contents {
+  height: 32%;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 15px;
+  margin-left: -30px;
+}
+
+.editor2-contents {
+  height: 32%;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.editor1-content1 {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.editor1-content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.editor1-heading {
+  font-size: 18px;
+  margin-left: 20px;
+  font-family: $quicksand-font-family;
+}
+
+.landingPage-heading1 {
+  font-size: 38px;
+  font-family: $poppins-font-family;
+}
+
+.landingPage-heading2 {
+  font-size: 28px;
+  font-family: $poppins-font-family;
+}
+
+.landingPage-heading3 {
+  font-size: 18px;
+  font-family: $poppins-font-family;
+}
+
+.editor1-items {
+  font-size: 22px;
+  font-family: $quicksand-font-family;
+}
+
+.brown-span {
+  color: #b9936c;
+}
+
+.yellow-span {
+  color: #ffef96;
+}
+
+.blue-span {
+  color: #034f84;
+}
+
+.green-span {
+  color: #b1cbbb;
+}
+
+.violet-span {
+  color: #6b5b95;
+}
+
+.settings-icon {
+  font-size: 15px;
+  color: grey;
+}
+
+.arrow-icon {
+  font-size: 15px;
+  color: grey;
+}
+
+.landingPage-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.landingPage-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  height: 60px;
+  width: 270px;
+  font-size: 20px;
+  font-family: $quicksand-font-family;
+  cursor: pointer;
+}
+
+/* For small screens (up to 320px) */
+@media (max-width: 320px) {
+  .landingPage-main-container {
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .landingPage-sub-container1 {
+    height: 60%;
+    width: 90%;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .landingPage-sub-container2 {
+    height: 60%;
+    width: 90%;
+    padding: 0px 15px;
+    gap: 7px;
+  }
+
+  .editor1-items {
+    font-size: 9px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 17px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 13px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 10px;
+  }
+
+  .landingPage-buttons {
+    width: 90%;
+    gap: 10px;
+  }
+
+  .landingPage-btn {
+    font-size: 11px;
+    height: 40px;
+    width: 120px;
+  }
+
+  .editor1-contents {
+    height: 30%;
+    width: 100%;
+    margin-left: -50px;
+  }
+
+  .editor2-contents {
+    height: 30%;
+    width: 100%;
+    margin-left: -20px;
+  }
+}
+
+/* For small screens (up to 375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .landingPage-main-container {
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .landingPage-sub-container1 {
+    height: 60%;
+    width: 90%;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .landingPage-sub-container2 {
+    height: 60%;
+    width: 90%;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .editor1-items {
+    font-size: 11px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 20px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 15px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 10px;
+  }
+
+  .landingPage-buttons {
+    width: 90%;
+    gap: 10px;
+  }
+
+  .landingPage-btn {
+    font-size: 13px;
+    height: 40px;
+    width: 120px;
+  }
+
+  .editor1-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: -50px;
+  }
+
+  .editor2-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: -20px;
+  }
+}
+
+/* For small screens (up to 600px) */
+@media (min-width: 376px) and (max-width: 600px) {
+  .landingPage-main-container {
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .landingPage-sub-container1 {
+    height: 60%;
+    width: 90%;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .landingPage-sub-container2 {
+    height: 60%;
+    width: 90%;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .editor1-items {
+    font-size: 11px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 20px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 15px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 10px;
+  }
+
+  .landingPage-buttons {
+    width: 90%;
+    gap: 10px;
+  }
+
+  .landingPage-btn {
+    font-size: 13px;
+    height: 40px;
+    width: 120px;
+  }
+
+  .editor1-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: -50px;
+  }
+
+  .editor2-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: -20px;
+  }
+}
+
+/* For medium screens (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .editor1-items {
+    font-size: 11px;
+  }
+
+  .landingPage-sub-container1 {
+    padding: 0px 15px;
+    gap: 10px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 28px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 20px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 15px;
+  }
+
+  .landingPage-buttons {
+    width: 100%;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .landingPage-btn {
+    font-size: 15px;
+    height: 40px;
+    width: 220px;
+  }
+
+  .editor1-heading {
+    font-size: 15px;
+  }
+
+  .editor1-contents {
+    height: 27%;
+    width: 100%;
+    margin-left: -20px;
+  }
+
+  .editor2-contents {
+    height: 27%;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .landingPage-sub-container2 {
+    height: 90%;
+  }
+}
+
+/* For large screens (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .landingPage-sub-container1 {
+    padding: 0px 20px;
+    gap: 20px;
+  }
+
+  .landingPage-buttons {
+    width: 90%;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .landingPage-btn {
+    font-size: 15px;
+    height: 40px;
+    width: 220px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 32px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 24px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 17px;
+  }
+
+  .editor1-items {
+    font-size: 15px;
+  }
+}
+
+/* For extra large screens (1201px and above) */
+@media (min-width: 1201px) and (max-width: 2559px) {
+  .landingPage-sub-container1 {
+    padding: 0px 20px;
+    gap: 40px;
+  }
+
+  .landingPage-buttons {
+    width: 90%;
+    gap: 20px;
+  }
+
+  .landingPage-btn {
+    font-size: 25px;
+    height: 70px;
+    width: 220px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 32px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 23px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 17px;
+  }
+
+  .editor1-items {
+    font-size: 22px;
+  }
+
+  .editor1-heading {
+    font-size: 22px;
+  }
+
+  .settings-icon {
+    font-size: 22px;
+  }
+
+  .arrow-icon {
+    font-size: 22px;
+  }
+
+  .editor1-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: -70px;
+    padding: 0px 30px;
+  }
+
+  .editor2-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: 5px;
+    padding: 0px 30px;
+  }
+}
+
+/* For very large screens (2560px and above) */
+@media (min-width: 2560px) {
+  .landingPage-buttons {
+    width: 90%;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .landingPage-btn {
+    font-size: 35px;
+    height: 140px;
+    width: 320px;
+  }
+
+  .landingPage-heading1 {
+    font-size: 72px;
+  }
+
+  .landingPage-heading2 {
+    font-size: 54px;
+  }
+
+  .landingPage-heading3 {
+    font-size: 37px;
+  }
+
+  .editor1-items {
+    font-size: 45px;
+  }
+
+  .editor1-heading {
+    font-size: 40px;
+  }
+
+  .settings-icon {
+    font-size: 35px;
+  }
+
+  .arrow-icon {
+    font-size: 35px;
+  }
+
+  .editor1-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: -90px;
+    padding: 0px 30px;
+  }
+
+  .editor2-contents {
+    height: 32%;
+    width: 100%;
+    margin-left: 30px;
+    padding: 0px 30px;
+  }
+}
